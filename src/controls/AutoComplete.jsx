@@ -79,7 +79,7 @@ class AC extends PureComponent {
                 scrollHeight={scrollHeight} disabled={disabled} value={value} onChange={onChange}
                 suggestions={list} completeMethod={filterResult} autoFocus={autoFocus}
                 onKeyUp={onCustomValue ? this.onKeyUp : onKeyUp} onFocus={onFocus} onBlur={onBlur}
-                onSelect={onSelect} onShow={onShow} onHide={onHide} forceSelection={forceSelection} />
+                onSelect={onSelect} onShow={onShow} onHide={onHide} forceSelection={forceSelection} baseZIndex={3000} />
         );
     }
 }
